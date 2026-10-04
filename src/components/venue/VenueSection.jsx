@@ -23,22 +23,7 @@ export function VenueSection({ config }) {
       </FadeIn>
 
       <FadeIn delay={200}>
-        <p
-          style={{
-            fontFamily: 'var(--font-body)',
-            fontSize: '1rem',
-            fontWeight: 500,
-            color: '#5A222A',
-            marginBottom: 12,
-          }}
-        >
-          Join us for the reception celebration at:
-        </p>
-      </FadeIn>
-
-      <FadeIn delay={240}>
-        <p className="venue-address">📍 {venue.fullAddress}</p>
-        <p className="venue-sub">{venue.tagline}</p>
+        <p className="venue-address" style={{ marginBottom: 20 }}>📍 {venue.fullAddress}</p>
       </FadeIn>
 
       <FadeIn delay={320}>

@@ -52,6 +52,25 @@ export function BlessingSection({ config }) {
           </p>
         </div>
       </FadeIn>
+
+      <FadeIn delay={320}>
+        <div style={{ marginTop: 24, marginBottom: 12 }}>
+          <p className="name-script">
+            {groom.firstName}
+          </p>
+          <p
+            className="weds-text"
+            style={{
+              margin: '2px 0',
+              fontSize: 'clamp(1.8rem, 6vw, 2.4rem)',
+              color: 'var(--gold-deep)',
+            }}
+          >
+            &amp;
+          </p>
+          <p className="name-script">{bride.firstName}</p>
+        </div>
+      </FadeIn>
     </section>
   );
 }

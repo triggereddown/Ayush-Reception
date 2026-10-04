@@ -9,11 +9,13 @@ import { BlessingSection }      from './components/blessing/BlessingSection';
 import { NamesSection }         from './components/names/NamesSection';
 import { SaveTheDateSection }   from './components/savedate/SaveTheDateSection';
 import { EventsHeaderSection }  from './components/events/EventsHeaderSection';
+import { WeddingCard }          from './components/events/WeddingCard';
 import { ReceptionCard }        from './components/events/ReceptionCard';
 import { VenueSection }         from './components/venue/VenueSection';
 import { ClosingSection }       from './components/closing/ClosingSection';
 
 const { events = [] } = weddingConfig;
+const weddingEvent   = events.find((e) => e.id?.toLowerCase() === 'wedding');
 const receptionEvent = events.find((e) => e.id?.toLowerCase() === 'reception');
 
 function App() {
@@ -137,6 +139,9 @@ function App() {
 
         {/* 5. Events Schedule header */}
         <EventsHeaderSection config={weddingConfig} />
+
+        {/* Wedding Ceremony - 21st Nov */}
+        {weddingEvent && <WeddingCard event={weddingEvent} />}
 
         {/* Reception Ceremony - 23rd Nov */}
         {receptionEvent && <ReceptionCard event={receptionEvent} />}

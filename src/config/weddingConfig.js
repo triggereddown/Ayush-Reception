@@ -38,7 +38,6 @@ export const weddingConfig = {
     name: 'Hotel RA Vista',
     city: 'Kolkata',
     fullAddress: 'Dum Dum,Near International Airport Kolkata',
-    tagline: 'Where our forever begins.',
     mapsUrl:
       'https://www.google.com/maps/place/Hotel+Ra+Vista/@22.6439183,88.4325539,17z/data=!3m1!4b1!4m9!3m8!1s0x39f89f0044c77801:0x425b27447e9b5506!5m2!4m1!1i2!8m2!3d22.6439183!4d88.4325539!16s%2Fg%2F11vrds143l?entry=ttu',
     mapEmbedUrl:
@@ -47,11 +46,19 @@ export const weddingConfig = {
 
   // ─── Events Schedule Section ──────────────────────────────
   eventsScheduleHeader: {
-    title: 'RECEPTION\nCELEBRATION',
+    title: 'EVENTS\nSCHEDULE',
     subtitle: 'CELEBRATE WITH US',
   },
 
   events: [
+    {
+      id: 'wedding',
+      title: 'WEDDING\nCEREMONY',
+      hashtag: '#TieTheKnotNov26',
+      joinText: 'PLEASE JOIN US FOR AN EVENING',
+      tagline: 'Dancing Under the stars, bound forever by Love',
+      date: '21st November 2026',
+    },
     {
       id: 'reception',
       title: 'RECEPTION\nCEREMONY',
@@ -73,7 +80,7 @@ export const weddingConfig = {
         'MANGALAM BHAGWAN VISHNU · MANGALAM GARUDADHWAJAH\nMANGALAM PUNDARIKAKSHAH · MANGALAYA TANO HARIH',
     },
     inviteText:
-      'We request the honor of your gracious presence to celebrate the Wedding Reception Party of',
+      'We request the honor of your gracious presence to celebrate the\nWedding Reception Party of',
     dates: '23rd November 2026',
     coverTitle: 'Reception\nInvitation',
     coverSubtitle: 'Ayush & Satakshi',
