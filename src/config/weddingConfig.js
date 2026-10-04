@@ -55,8 +55,8 @@ export const weddingConfig = {
       id: 'wedding',
       title: 'WEDDING\nCEREMONY',
       hashtag: '#TieTheKnotNov26',
-      joinText: 'PLEASE JOIN US FOR AN EVENING',
-      tagline: 'Dancing Under the stars, bound forever by Love',
+      joinText: '',
+      tagline: '',
       date: '21st November 2026',
     },
     {
