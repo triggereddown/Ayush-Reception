@@ -61,7 +61,7 @@ export const weddingConfig = {
     },
     {
       id: 'reception',
-      title: 'RECEPTION\nCEREMONY',
+      title: 'RECEPTION\nPARTY',
       hashtag: '#CheersToTheNewlyWeds',
       joinText: 'Join us for an evening of music, dinner, and celebrations!',
       tagline: "Here's to Love,Laughter and a Night to remember.",
