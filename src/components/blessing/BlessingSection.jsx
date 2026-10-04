@@ -46,25 +46,10 @@ export function BlessingSection({ config }) {
       </FadeIn>
 
       <FadeIn delay={240}>
-        <p className="blessing-invite-text" style={{ whiteSpace: 'pre-line' }}>{invitation.inviteText}</p>
-      </FadeIn>
-
-      <FadeIn delay={320}>
-        <div style={{ marginTop: 24, marginBottom: 12 }}>
-          <p className="name-script">
-            {groom.firstName}
+        <div className="blessing-invite-container" style={{ margin: '8px 0 16px' }}>
+          <p className="blessing-invite-text" style={{ whiteSpace: 'pre-line' }}>
+            {invitation.inviteText}
           </p>
-          <p
-            className="weds-text"
-            style={{
-              margin: '2px 0',
-              fontSize: 'clamp(1.8rem, 6vw, 2.4rem)',
-              color: 'var(--gold-deep)',
-            }}
-          >
-            &amp;
-          </p>
-          <p className="name-script">{bride.firstName}</p>
         </div>
       </FadeIn>
     </section>

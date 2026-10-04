@@ -28,8 +28,8 @@ export const weddingConfig = {
   saveTheDate: {
     eyebrow: "Don't miss the celebration",
     title: 'SAVE THE DATE',
-    dateText: '21st – 23rd November 2026',
-    dates: '21 – 23 Nov 2026',
+    dateText: '23rd November 2026',
+    dates: '23rd November 2026',
   },
 
   // ─── Venue Details ────────────────────────────────────────
@@ -47,47 +47,16 @@ export const weddingConfig = {
 
   // ─── Events Schedule Section ──────────────────────────────
   eventsScheduleHeader: {
-    title: 'EVENTS\nSCHEDULE',
+    title: 'RECEPTION\nCELEBRATION',
     subtitle: 'CELEBRATE WITH US',
   },
 
   events: [
     {
-      id: 'haldi',
-      title: 'HALDI\nCEREMONY',
-      hashtag: '#SunMeetsSky',
-      joinText: 'PLEASE JOIN US FOR A MORNING',
-      tagline: 'Filled with love, laughter and turmeric.',
-      date: '21st November 2026',
-      time: '10:00 AM',
-    },
-    {
-      id: 'wedding',
-      title: 'WEDDING\nCEREMONY',
-      hashtag: '#TieTheKnotNov26',
-      joinText: 'PLEASE JOIN US FOR AN EVENING',
-      tagline: 'Dancing Under the stars, bound forever by Love',
-      date: '21st November 2026',
-      rituals: [
-        { name: 'Baraat', time: '6:00 PM' },
-        { name: 'Mala Bodol', time: '7:00 PM' },
-        { name: 'Sindoor Daan', time: '8:00 PM' },
-      ],
-    },
-    {
-      id: 'sangeet',
-      title: 'SANGEET\nCELEBRATION',
-      hashtag: '#YeShaamShandaar',
-      joinText: 'PLEASE JOIN US FOR AN EVENING',
-      tagline: 'Where melodies meet memories and hearts dance with joy.',
-      date: '22nd November 2026',
-      time: '7:00 PM',
-    },
-    {
       id: 'reception',
       title: 'RECEPTION\nCEREMONY',
       hashtag: '#CheersToTheNewlyWeds',
-      joinText: 'PLEASE JOIN US FOR A GRAND CELEBRATION',
+      joinText: 'Join us for an evening of music, dinner, and celebrations!',
       tagline: "Here's to Love,Laughter and a Night to remember.",
       date: '23rd November 2026',
     },
@@ -104,9 +73,9 @@ export const weddingConfig = {
         'MANGALAM BHAGWAN VISHNU · MANGALAM GARUDADHWAJAH\nMANGALAM PUNDARIKAKSHAH · MANGALAYA TANO HARIH',
     },
     inviteText:
-      'We request the honor of your gracious presence\non the auspicious occasion of the wedding celebration of',
-    dates: '21st to 23rd November 2026',
-    coverTitle: 'Wedding\nInvitation',
+      'We request the honor of your gracious presence to celebrate the Wedding Reception Party of',
+    dates: '23rd November 2026',
+    coverTitle: 'Reception\nInvitation',
     coverSubtitle: 'Ayush & Satakshi',
     coverTapHint: '✦ TAP SEAL TO OPEN ✦',
     closingWithLove: 'WITH LOVE',

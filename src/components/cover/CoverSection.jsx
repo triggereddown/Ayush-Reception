@@ -85,7 +85,7 @@ export function CoverSection({ config, isOpened, onOpen }) {
                 />
                 <p className="inside-shubho">শুভ বিবাহ</p>
                 <div className="inside-divider-line" />
-                <p className="inside-invite-txt">Wedding Celebration</p>
+                <p className="inside-invite-txt">Reception Celebration</p>
               </div>
               <div className="inside-golden-glow" />
             </div>

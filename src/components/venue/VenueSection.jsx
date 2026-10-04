@@ -32,7 +32,7 @@ export function VenueSection({ config }) {
             marginBottom: 12,
           }}
         >
-          Join us at the venue for these three days at:
+          Join us for the reception celebration at:
         </p>
       </FadeIn>
 

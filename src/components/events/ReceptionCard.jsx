@@ -51,7 +51,17 @@ export function ReceptionCard({ event }) {
             <p className="event-hashtag" style={{ color: '#fae0a2', fontWeight: 600 }}>
               {event.hashtag}
             </p>
-            <p className="event-join-text" style={{ color: '#e4e7fc', fontWeight: 600, fontSize: '0.68rem' }}>
+            <p
+              className="event-join-text"
+              style={{
+                color: '#e4e7fc',
+                fontWeight: 600,
+                fontSize: '0.72rem',
+                letterSpacing: '0.18em',
+                lineHeight: 1.55,
+                margin: '6px 0 10px',
+              }}
+            >
               {event.joinText}
             </p>
             <p className="event-tagline" style={{ color: '#ffffff', fontSize: '0.98rem', fontWeight: 500 }}>

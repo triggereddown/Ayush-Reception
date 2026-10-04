@@ -149,11 +149,9 @@ export function SaveTheDateSection({ config }) {
           />
         </div>
 
-        {isRevealed && (
-          <p className="scratch-success-note" style={{ marginTop: 16 }}>
-            ✨ Mark your calendars for our auspicious union! ✨
-          </p>
-        )}
+        <p className="scratch-success-note" style={{ marginTop: 18 }}>
+          Mark your calendars to celebrate with us!
+        </p>
       </FadeIn>
     </section>
   );
