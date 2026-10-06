@@ -80,7 +80,7 @@ export const weddingConfig = {
         'MANGALAM BHAGWAN VISHNU · MANGALAM GARUDADHWAJAH\nMANGALAM PUNDARIKAKSHAH · MANGALAYA TANO HARIH',
     },
     inviteText:
-      'We request the honor of your gracious presence to celebrate the\nWedding Reception Party of',
+      'We request the honor of your gracious presence on the auspicious occasion of the Wedding Reception of',
     dates: '23rd November 2026',
     coverTitle: 'Reception\nInvitation',
     coverSubtitle: 'Ayush & Satakshi',
